@@ -1,0 +1,275 @@
+.px-6 {
+  padding-right: 6.5rem !important;
+  padding-left: 6.5rem !important;
+}
+
+.px-7 {
+  padding-right: 5.5rem !important;
+  padding-left: 5.5rem !important;
+}
+.myMargin{
+  margin-right: 1rem !important;
+  margin-left: 1rem !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+  position: relative;
+
+}
+
+/* .navbar-brand-background{
+ 
+  height:calc(90vh - 300px);
+  background-image: url(https://couponuni.com/wp-content/uploads/2021/03/Artboard-1edit.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+} */
+.navbar-toggler-icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.10rem;
+}
+
+::selection {
+  background-color: #54595f;
+  color: #ffffff;
+}
+.transparent_image_tree{
+  background-image:linear-gradient(rgb(255,255,255,0.8),rgb(255,255,255,0.8)),url(https://couponuni.com/wp-content/uploads/2021/03/logo-leaf2-free-img.png);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position:  top left; 
+  background-size: 37% auto;
+}
+.transparent_image_2{
+  background-image:linear-gradient(rgba(5,2,0,0.5), rgba(5,2,0,0.5)),url(https://couponuni.com/wp-content/uploads/2021/03/deal_01-600x375-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  max-width: 100%;
+
+}
+
+
+  
+.navbar-submit-input , .navbar-search-input{
+  outline: none;
+  border: none;
+  align-items: center;
+
+}
+.navbar-search-input{
+  display: flex;
+  align-items: stretch; 
+  white-space: normal;
+  
+  
+}
+.navbar-submit-input{
+  width: 50px !important;
+ 
+}
+
+.mybtn{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+.mybtn:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+.upPoint{
+  width: 16px;
+  height: 16px;
+  background-image: url('img/chevron-up.svg');
+}
+.accordionHeader{
+  font-size: 15px;
+  font-weight: 400;
+ margin-bottom: 6px;
+ border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+
+  /* color: rgba(0,0,0,1); */
+  /* text-align: left; */
+}
+.positionContainer{
+  position: relative;
+  
+  
+}
+.accordionHeader:hover{
+  background-color: #F9A60E;
+
+}
+.positionContainer > * {
+ 
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.6);
+  margin-top: var(--bs-gutter-y);
+}
+.uni-coupon-flexbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ width: 100%;
+}
+.uni-coupon-item{
+  width: 100%;
+  height: 100%;
+  margin-right: 30px;
+}
+.uni-coupon-item h5{
+  font-size: 18px;
+  color: #333;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.shopping-btn{
+  width: 149px;
+  height: 48px;
+  
+background-color: #f3f1ef;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.start-10 {
+  /* right: 72% !important; */
+  /* right: auto; */
+
+  left: 11%;
+}
+.top-7 {
+  top: 7% !important;
+}
+.btn_shopping{
+  background-color: #f4f4f4 ;
+  color: black;
+}
+.add_to_cart_button:hover, .btn_shopping:hover, .btn-shopping-bglight:hover{
+  background-color: #000000;
+  color: #f3f1ef;
+
+}
+.card-img-top:hover{
+  opacity: 0.9;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 30px solid black;
+}
+.input_focus:focus{
+  outline: none;
+}
+.navbar-brand-white-space-normal{
+  white-space: normal;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+  }
+
+
+@media(max-width: 1400px){
+  .link-hover-border-bottom:hover{
+    border-bottom:  3px solid #6c757d;
+    
+
+  }
+  .text-hover-dark{
+    color: white !important;
+    
+  }
+  .nav-item-hover-transparent:hover  .text-hover-dark{
+    color: black !important;
+    
+  }
+  .Mycontainer{
+    padding-left: 60px; 
+    padding-right: 60px;
+  }
+
+
+}
+
+@media(max-width: 960px){
+  .start-10 {
+    left: 15%;
+  }
+  .fsResponsive {
+    font-size: 12px;
+  }
+  .btn_shopping{
+    bottom: 90% !important;
+  }
+  .Mycontainer{
+    padding-left: 40px; 
+    padding-right: 40px;
+  }
+
+}
+@media (max-width: 768px) {
+  .active-link-gary{
+    background-color:#55595C ;
+    color: white !important;
+  }
+  .navbar-collapse-white {
+   background-color: white !important;
+  }
+  .nav-item-hover-gray:hover{
+    background-color:#55595C ;
+   
+  }
+  .nav-link-hover-1{
+    color: black !important;
+  }
+  .nav-link-hover-1:hover{
+    color: white !important;
+  }
+  .nav-item-hover-transparent{
+    background-color: white !important;
+  }
+  .Mycontainer{
+    padding-left: 50px; 
+    padding-right: 50px;
+  }
+  .collapse-md {
+    display: none;
+  }
+
+}
+@media(max-width: 400px){
+  .start-10 {
+    left: 20%;
+  }
+  .fsResponsive {
+    font-size: 11px;
+  }
+  .RFS-span1{
+    font-size: 15px !important;
+    
+  }
+  .Mycontainer{
+    padding-left: 20px; 
+    padding-right: 20px;
+  }
+
+}
+
